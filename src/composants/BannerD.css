@@ -1,0 +1,75 @@
+.BannerD {
+  position: absolute;
+  top: 0px;
+  left: 265%;
+  width: 80%;
+  height: 160px;
+  background: #228B22;
+  color: white;
+}
+
+.BannerDS {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: radial-gradient(circle, #32CD32, #228B22);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 20% 0%);
+  overflow: hidden;
+}
+.BannerDS img {
+  width: 88%;
+  object-fit: cover;
+}
+
+.promoA3N {
+  width: 38px;
+  height: 38px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  animation: rouyer 3s ease-in-out infinite;
+}
+
+.proA2 {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 48%;
+  background: rgb(55,0,125);
+  padding: 5px 2px;
+  text-align: center;
+  font-family: "Times New Roman";
+  border-radius: 5px;
+  animation: battementcoeur 1s infinite ease-in-out;
+}
+
+@keyframes rouyer {
+  0%{
+    transform: translateY(0) rotate(0deg);
+  }
+  10%{
+    transform: translateY(115px) rotate(360deg);
+  }
+  90%{
+    transform: translateY(115px) rotate(360deg);
+  }
+  100%{
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+
+

@@ -1,0 +1,43 @@
+.Categorie {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #B3E5DF;
+  margin-inline: 5vw;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4169E1;
+  border-radius: 10px;
+  box-shadow: 3px 2px 3px  black;
+}
+
+
+.CategorieItem {
+  min-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.CategorieItem img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.CategorieNom {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}

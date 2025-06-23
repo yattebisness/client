@@ -1,0 +1,264 @@
+.ClientOrder {
+  background: rgba(235,235,255,0.9);
+  width: 100%;
+  height: 90vh;
+}
+.idClient span {
+  font-size: 0.95rem;
+}
+
+.idClient p {
+  font-size: 0.75rem;
+}
+
+
+.idClient {
+  margin: 10px 0;
+  background: #007bff;
+  color: white;
+  padding: 12px;
+}
+
+.compteYatte {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 14px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.clientTitle {
+  padding-bottom: 10px;
+  border-bottom: 0.8px solid rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.contentCompte {
+  background: white;
+  padding: 10px 5px;
+  height: 350px;
+  margin: 0 10px;
+  border-radius: 10px;
+  position: relative;
+  overflow: auto;
+}
+
+.clientNotif {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clientNotif p {
+  margin-left: 5px;
+}
+
+.clientBTN {
+  padding: 10px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.BookOpen {
+  color: rgb(255,100,0);
+  margin-left: 5px;
+}
+
+
+.btnlogout {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  background: #4B0082;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  box-shadow: 2px 1px 3px rgba(200,200,255,1));
+}
+
+.btnlogout:active {
+  transform: translateX(-50%) scale(0.95);
+}
+
+.itemCard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 0.75rem;
+}
+
+.itemCard img {
+  width: 20%;
+
+}
+
+.clientHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.clientLabel {
+  text-align: center;
+  font-size: 0.75rem;
+  background: #007bff;
+  color: white;
+  padding: 5px;
+}
+
+.contentCompte2 {
+  background: white;
+  padding: 10px 5px;
+  height: 350px;
+  margin: 0 10px;
+  border-radius: 10px;
+  position: relative;
+  overflow: auto;
+  
+  scrollbar-width: none !important; 
+  -ms-overflow-style: none !important; 
+}
+
+
+.contentCompte2::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px !important;
+  background: transparent !important;
+  display: none !important;
+}
+
+
+.clientWrapper > *:not(:last-child):not(:only-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+
+.cltSearch, .cltUser, .cltCart {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0,0,0,0.3);
+}
+
+
+.AlignJustify {
+  width: 38px;
+  height: 38px;
+  padding: 4px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.3);
+}
+
+
+
+.orderCard + .orderCard {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+
+
+
+.compteYatte {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggleHistorique {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+  font-size: 0.75rem;
+  margin-right: 10px;
+}
+
+
+.orderCard {
+  display: none;
+}
+
+
+.orderCard:last-child {
+  display: block;
+}
+
+
+
+
+#toggle-orders:checked ~ .contentCompte2 .orderCard {
+  display: block;
+}
+
+
+.detailMenuT {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+
+.DetailTitleT {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.BasketT {
+  background: rgb(255,100,0);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.DetailRightTitleT {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.titleYATTE {
+  font-size: 1.5rem;
+}
+
+.MoveLeftT {
+  background: #4B0082;
+  width: 40px;
+  height: 36px;
+  color: white;
+  padding: 5px;
+}
+
+.MoveLeftT:active {
+  transform: scale(0.95);
+}
+
+

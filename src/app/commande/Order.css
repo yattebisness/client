@@ -1,0 +1,208 @@
+.Order {
+  background: rgba(235,235,255,0.9);
+  width: 100%;
+  max-height: 100vh;
+}
+
+.OrderHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  margin-bottom: 20px;
+  border-bottom: 0.5px solid rgba(0,0,0,0.3);
+}
+
+.OrderHeader p {
+  margin-left: 40px;
+}
+
+.MoveLeft {
+  background: #4B0082;
+  width: 38px;
+  height: 32px;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.resOrder {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  color: rgba(0,0,0,0.6);
+}
+
+.corpsOrder {
+  background: white;
+  margin-bottom: 10px;
+  
+}
+
+.wrapperOrders {
+  padding: 10px 5px;
+}
+
+.OrderQty {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+
+.delivery {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.orderTotal {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  border-top: 0.5px solid rgba(0,0,0,0.3);
+  padding: 10px 5px;
+}
+
+.payMod {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  color: rgba(0,0,0,0.6);
+}
+
+.payOrder {
+  background: white;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.HandCoins {
+  color: rgb(255,80,0);
+}
+
+.lovOrder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.Orderdelivap {
+  font-size: 0.8rem;
+}
+
+.lovOrder p {
+  font-size: 0.9rem;
+}
+
+.livrDetail {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  color: rgba(0,0,0,0.6);
+}
+
+.domicile {
+  background: white;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+.domiKais {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.domiKais p {
+  font-size: 0.95rem;
+}
+
+.domicile p {
+  font-size: 0.85rem;
+}
+
+.Truck {
+  color: rgb(255,80,0);
+}
+
+.OrderConfirm {
+  width: 85%;
+  height: 46px;
+  background: #4B0082;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-family: "Times New Roman";
+}
+
+.ConfirmCenter {
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  background: white;
+  position: sticky;
+  bottom: 0;
+  border-bottom: 0.5px solid rgba(0,0,0,0.3);
+  border-top: 0.5px solid rgba(0,0,0,0.3);
+}
+
+.OrderArticle {
+  width: 100%;
+  background: white;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+.OrderArticlA {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.OrderArticlA img {
+  max-width: 18%;
+}
+
+.OrderArticlA p {
+  font-size: 0.75rem;
+}
+
+
+
+.OrderCommande {
+  width: 100%;
+  background: white;
+  font-size: 0.65rem;
+  padding: 5px;
+}
+
+
+.expedition {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 5px;
+  margin-bottom: 5px;
+  color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,367 @@
+.detailMenuC {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 999999;
+}
+
+.DetailTitleC {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.DetailTitleC p {
+  font-size: 1.5rem;
+}
+
+.DetailRightTitleC {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cartC {
+  position: relative;
+}
+
+.cartPC {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #4B0082;
+  color: white;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 0.75rem;
+}
+
+.BasketC {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(255,85,0);
+}
+
+
+
+.cartWrapp {
+  background: rgba(235,235,255,0.9);
+  width: 100%;
+  height: 100vh;
+}
+
+.Cart {
+  width: 100%;
+}
+
+.Cartperso {
+  background: rgba(0,0,0,0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchCart {
+  color: rgba(0,0,0,0.3);
+}
+
+.CartTitlea {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.88);
+}
+
+.totalCart {
+  box-shadow: 0 3px 2px rgba(0,0,0,0.1);
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.subtotalCart {
+  background: white;
+  padding: 10px 5px;
+  border: 0.5px solid gray;
+  font-size: 0.78rem;
+  color: gray;
+}
+
+.Check {
+  background: green;
+  color: white;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  float: left;
+}
+
+.Cartprix {
+  font-size: 0.95rem;
+}
+
+
+.CARTIMG {
+  width: 30%;
+}
+.CARTIMG img {
+  width: 100%;
+  padding-left: 5px;
+}
+
+.WrapTenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: white;
+  width: 100%;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.CartDes {
+  width: 70%;
+}
+
+.CartDes p {
+  font-size: 0.78rem;
+  margin-bottom: 10px;
+}
+
+.CartCount {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.countSite {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  background: rgba(235,235,255,0.9);
+}
+
+.Plus {
+  background: #4B0082;
+  color: white;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.Minus {
+  background: #4B0082;
+  color: white;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.Trash {
+  width: 24px;
+  height: 24px;
+  color:rgb(255,100,0);
+}
+
+.wraTrash {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3px;
+}
+
+.CartOrder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background: white;
+  padding: 10px 10px;
+  gap: 8px;
+  position: sticky;
+  bottom: 0;
+}
+
+.CartPhone {
+  width: 15%;
+  height: 46px;
+  border: solid 0.5px #4B0082;
+  color: #4B0082;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-weight: thin;
+}
+
+.btnCartOrder {
+  width: 85%;
+  height: 46px;
+  background: #4B0082;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-family: "Times New Roman";
+}
+
+
+
+.suggestions-section {
+  background: white;
+  overflow-x: auto;
+  margin-top: 20px;
+  color: #0d0d82;
+}
+
+.suggestions-list {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE 10+ */
+}
+
+/* Chrome, Safari, Opera */
+.suggestions-list::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px !important;
+  background: transparent !important;
+  display: none !important;
+}
+
+
+.suggestion-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 50%;
+  font-size: 0.79rem;
+}
+
+.wrapperCartOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+
+.empty {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.empty p {
+  font-size: 0.86rem;
+}
+
+.empty img {
+  width: 40%;
+}
+
+
+.shopsuite {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.shopsuite p {
+  background: #4B0082;
+  color: white;
+  padding: 15px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+}
+
+
+
+
+.catcarthide {
+  width: 45%;
+  position: absolute;
+  top: 57.5px;
+  background: white;
+  left: -100%;
+  z-index: 999;
+  transition: left .5s ease-in-out;
+}
+
+.catcartshow {
+  width: 45%;
+  position: absolute;
+  top: 57.5px;
+  background: white;
+  left: 0;
+  z-index: 999;
+  transition: left .5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.MenuVisibleTitleC {
+  border-bottom: 0.5px solid rgba(0,0,0,0.3);
+  padding-bottom: 5px;
+}
+
+.itemvisibleC {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 0;
+  font-family: Georgia;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
+  font-size: 0.85rem;
+}
+
+
+.itemvisibleC:last-child {
+  box-shadow: none;
+}

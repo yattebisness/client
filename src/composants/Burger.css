@@ -1,0 +1,87 @@
+.Burger, .Active {
+  position: relative;
+  width: 28px;
+  height: 35px;
+}
+
+.Burger div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 24px;
+  height: 3px;
+  background-color: rgba(0,0,0,0.6);
+  transition: background-color 0.5s ease-in-out;
+  border-radius: 1px;
+}
+
+.Burger div::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10px);
+  width: 24px;
+  height: 3px;
+  background-color: rgba(0,0,0,0.6);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 1px;
+}
+
+.Burger div::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 10px);
+  width: 24px;
+  height: 3px;
+  background-color: rgba(0,0,0,0.6);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 1px;
+}
+
+.Active div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 24px;
+  height: 3px;
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+  border-radius: 1px;
+}
+
+
+.Active div::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 24px;
+  height: 3px;
+  background-color: rgba(0,0,0,0.6);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 1px;
+}
+
+.Active div::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 24px;
+  height: 3px;
+  background-color: rgba(0,0,0,0.6);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 1px;
+}
+
+
+
+
+

@@ -1,0 +1,35 @@
+.SixOffre {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  margin-bottom: 30px;
+}
+
+.SixOffreItem {
+  width: 112px;
+  height: 145px;
+  background: radial-gradient(circle, #5D3FD3 , #4169E1);
+  margin-left: 5px;
+  padding-top: 3px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-family: Georgia;
+  text-align: center;
+  position: relative;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+.SixOffreItem img{
+  width: 75%;
+  height: 95px;
+  object-fit: cover
+}
+
+.SixOffreItem:hover {
+  transform: scale(1.05);
+}

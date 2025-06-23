@@ -1,0 +1,52 @@
+.Categoriels {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #B3E5DF;
+  margin-inline: 5vw;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4169E1;
+  border-radius: 10px;
+  box-shadow: 3px 2px 3px  black;
+}
+
+
+.CategorieItemls {
+  min-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+}
+
+.CategorieItemls:hover {
+  transform: scale(1.05);
+}
+
+.CategorieItemls img {
+  max-width: 50%;
+  object-fit: cover;
+}
+
+.CategorieNomls {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.CategoriePricels {
+  text-transform: uppercase;
+}

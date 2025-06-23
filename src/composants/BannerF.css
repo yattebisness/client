@@ -1,0 +1,27 @@
+.BannerF {
+  position: relative;
+  top: 120px;
+  left: 10%;
+  width: 80%;
+  height: 160px;
+  background: #FF1493;
+  color: white;
+}
+
+.BannerFs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: radial-gradient(circle, fuchsia, #FF1493);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 20% 0%);
+  overflow: hidden;
+}
+
+.BannerFs img {
+  width: 100%;
+} 

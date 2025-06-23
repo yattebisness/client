@@ -1,0 +1,26 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia;
+  gap: 5px;
+  background: #4B0082;
+  padding: 10px;
+  color: white;
+}
+.YATTE {
+  font-family: Georgia;
+  font-size: 0.65rem;
+  font-weight: 900;
+}
+
+.yate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: thin;
+  font-family: Sans-Serif;
+}

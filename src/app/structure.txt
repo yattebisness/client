@@ -1,0 +1,27 @@
+.
+├── [produitId]
+│   ├── Detail.css
+│   └── page.jsx
+├── client
+│   ├── Client.css
+│   └── page.jsx
+├── commande
+│   ├── Order.css
+│   └── page.jsx
+├── favicon.ico
+├── globals.css
+├── layout.js
+├── page.js
+├── page.module.css
+├── panier
+│   ├── Cart.css
+│   └── page.jsx
+├── produits
+│   ├── Produit.jsx
+│   ├── Produit.module.css
+│   ├── Produits.module.css
+│   ├── page.jsx
+│   └── structure.txt
+└── structure.txt
+
+6 directories, 19 files

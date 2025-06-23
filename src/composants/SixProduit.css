@@ -1,0 +1,63 @@
+.SixProduit {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  row-gap: 8px;
+}
+
+.sixItem {
+  width: 112px;
+  height: 145px;
+  background: radial-gradient(circle, #5D3FD3 , #4169E1);
+  margin-left: 5px;
+  padding-top: 3px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-family: Georgia;
+  text-align: center;
+  position: relative;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+.sixItem img {
+  width: 75%;
+  height: 95px;
+  object-fit: cover;
+}
+
+.sixItem:hover {
+  transform: scale(1.05);
+}
+
+.sixPrice {
+  background: #4B0082;
+  width: 80%;
+  padding: 3px;
+  clip-path: polygon(0% 100%, 95% 100%, 100% 0%, 5% 0%);
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  letter-spacing: 0.15rem;
+  font-weight: 900;
+}
+
+.New {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  right: 0;
+  padding: 2px;
+  font-size: 0.65rem;
+}

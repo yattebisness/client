@@ -1,0 +1,51 @@
+.BannerE {
+  position: absolute;
+  top: 0px;
+  left: 95%;
+  width: 80%;
+  height: 160px;
+  background: #5D3FD3;
+  color: white;
+}
+
+.BannerEs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: radial-gradient(circle, #4169E1, #5D3FD3);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 20% 0%);
+  overflow: hidden;
+}
+.BannerEs img {
+  animation: animPromoB 5s infinite ease-in-out;
+}
+
+.gaza {
+  width: 100%;
+  object-fit: cover;
+}
+.gazb {
+  width: 80%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.proA22 {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 48%;
+  background: rgb(255,100,0);
+  padding: 5px 2px;
+  text-align: center;
+  font-family: "Times New Roman";
+  border-radius: 5px;
+  animation: bounce 2s infinite ease-in-out;
+}

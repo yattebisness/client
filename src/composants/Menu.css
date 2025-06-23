@@ -1,0 +1,197 @@
+.Menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: Georgia;
+  position: relative;
+}
+
+
+.MenuLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  font-family: Georgia;
+}
+
+.MenuRight {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.Basket {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(255,85,0);
+}
+
+
+.MenuWrapper {
+  width: 100%;
+  padding-bottom: 14px;
+  box-shadow: 2px 1px 1.5px 1.5px rgba(0,0,0,0.1);
+}
+
+.fmenu {
+  padding: 5px;
+  text-align: center;
+  background:  #4B0082;
+  color: white;
+  font-family: Georgia;
+  font-size: 0.85rem;
+}
+
+.MenuHide {
+  position: absolute;
+  top: 130px;
+  left: -100%;
+  width: 45%;
+  height: 100vh;
+  background: white;
+  z-index: 999;
+  transition: left .5s ease-in-out;
+}
+
+.MenuVidible {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  width: 45%;
+  height: 100vh;
+  background:  white;
+  z-index: 999;
+  transition: left .5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.MenuVisibleTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:8px;
+  font-weight: 900;
+  font-size: 0.85rem;
+  box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
+}
+
+.visiblewcat {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemvisible {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 0;
+  font-family: Georgia;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
+  font-size: 0.85rem;
+}
+
+
+
+.MenuContainer {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: white;
+}
+
+.cart {
+  position: relative;
+}
+
+.Menushopp {
+  transition: all 0.1s ease;
+}
+
+.Menushopp:hover {
+  transform: scale(1.2);
+}
+.UsCart {
+  transition: all 0.005s ease;
+}
+
+.UsCart:hover {
+  transform: scale(1.2);
+}
+
+.cartP {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #4B0082;
+  color: white;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 0.75rem;
+}
+
+.authUser {
+  position: relative;
+  text-align: center;
+}
+
+
+.authUser .authMenu {
+  display: none;
+  width: auto;
+  position: absolute;
+  z-index: 999999;
+  left: 0;
+  top: 30px;
+  background: white;
+  padding: 10px 10px;
+  box-shadow: 1px 3px 2px black;
+}
+
+.authUser:hover > .authMenu{
+  display: block;
+}
+
+.authMenu button {
+  padding: 5px;
+  border: 0;
+  width: 100px;
+  outline: none;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1.5px 1px black;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+

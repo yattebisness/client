@@ -1,0 +1,31 @@
+.Search {
+  position: relative;
+}
+
+.Search form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Search form input {
+  width: 95%;
+  height: 35px;
+  border-radius: 16.5px;
+  border: 0.5px solid rgba(0,0,0,0.6);
+  padding-left: 25px;
+  outline-color: rgba(0,0,0,0.6);
+  outline-width: 0.5px;
+  outline-style: solid;
+  padding-right: 20px;
+  font-size: 0.85rem;
+}
+
+.Search form img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 15px;
+}

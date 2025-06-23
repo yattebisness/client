@@ -1,0 +1,105 @@
+.BannerWrappers {
+  position: absolute;
+  left: -75%;
+  top: 0px;
+  width: 80%;
+  height: 160px;
+  background:rgb(255,100,0);
+  color: white;
+}
+
+.promoA {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
+}
+.promoB {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: orange;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 40% 0%);
+  background: radial-gradient(circle, yellow, rgb(255,100,0));
+  overflow: hidden;
+  
+}
+
+.promoB img {
+  width: 80%;
+  object-fit: cover;
+  animation: animPromoB 3s ease-in-out infinite;
+}
+
+.promoA1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-left: 2px solid white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.promoA2 {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 68%;
+  background: rgb(55,0,125);
+  padding: 5px 2px;
+  text-align: center;
+  font-family: "Times New Roman";
+  border-radius: 5px;
+  animation: battementcoeur 1s infinite ease-in-out;
+}
+
+.promoA3 {
+  width: 38px;
+  height: 38px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+
+@keyframes animPromoB {
+  0%{
+    transform:translateX(0);
+  }
+  25%{
+    transform: translateX(99%);
+  }
+  50% {
+    transform: translateX(99%);
+  }
+  75%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes battementcoeur {
+  0% { transform: scale(1); opacity: 1; }
+  30% { transform: scale(1.1); opacity: 0.8; }
+  50% { transform: scale(1); opacity: 1; }
+  70% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}

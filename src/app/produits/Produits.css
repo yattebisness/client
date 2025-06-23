@@ -1,0 +1,32 @@
+.Donnees {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  gap: 6px;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page-item.active .page-link {
+  background-color: #4B0082; 
+  color: white; 
+  font-weight: bolder;
+  box-shadow: 0 0.5px 0 #0d0d82;
+}
+
+.page-link {
+    border: 1px solid #0d0d82;
+    background-color: rgba(235,235,255,0.9);
+    font-weight: bold;
+    color: #0d0d82;
+    padding: 10px;
+}

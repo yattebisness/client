@@ -1,0 +1,14 @@
+select {
+  width: 90%;
+  padding: 5px 12px;
+  font-size: 16px;
+  border-radius: 18px;
+  border: 0;
+  font-size: 0.85rem;
+  color: gray;
+  background-color: rgba(0,0,0,0.1);
+  outline: none;
+  margin-bottom: 8px;
+  appearance: none; /* pour supprimer la flèche par défaut sur certains navigateurs */
+  
+}
